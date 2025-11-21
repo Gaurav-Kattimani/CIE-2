@@ -11,5 +11,13 @@ else:
     principal=10000
     rate=8
     time=2
-    si = (principal * rate * time) / 100
-    print("The Simple Interest is:", si)
+    
+    if principal <= 0:
+        print("Principal amount must be greater than 0.")
+    elif rate <= 0:
+        print("Rate of interest must be greater than 0.")
+    elif time <= 0:
+        print("Time must be greater than 0.")
+    else:
+        simple_interest = (principal * rate * time) / 100
+        print("The Simple Interest is:", simple_interest)
