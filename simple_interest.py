@@ -12,4 +12,4 @@ else:
     rate=8
     time=2
     si = (principal * rate * time) / 100
-    print("The Simple Interest is:", si)
+print("The Simple Interest is:", si)
