@@ -11,5 +11,5 @@ else:
     principal=10000
     rate=8
     time=2
-    si = (principal * rate * time) / 100
-    print("The Simple Interest is:", si)
+    si = (principal * rate * time) / 100;
+    print("The Simple Interest is:", si);
