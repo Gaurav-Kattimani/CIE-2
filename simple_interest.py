@@ -8,7 +8,7 @@ if len(sys.argv) != 4:
     sys.exit(1)
 
 else:
-    principal=100
+    principal=10000
     rate=8
     time=2
     si = (principal * rate * time) / 100
