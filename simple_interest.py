@@ -7,6 +7,7 @@ if len(sys.argv) < 4:
     print("Usage : python simple_interest.py <principal> <rate> <time>")
     sys.exit(1)
 else:
+    int principal,time,rate,si
     principal=10000
     rate=8
     time=2
