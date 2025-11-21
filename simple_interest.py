@@ -6,11 +6,8 @@ if len(sys.argv) < 4:
     time = float(sys.argv[3])
     print("Usage : python simple_interest.py <principal> <rate> <time>")
     sys.exit(1)
-
+    
 else:
-    int principal, time, rate, si
-    principal=10000
-    rate=8
-    time=2
+    int principal = 10000, time = 2, rate = 8, si;
     si = (principal * rate * time) / 100
     print("The Simple Interest is:", si)
