@@ -8,7 +8,6 @@ if len(sys.argv) != 4:
     sys.exit(1)
 
 else:
-    int principal, rate, time, si
     principal=10000
     rate=8
     time=2
