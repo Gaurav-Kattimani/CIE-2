@@ -8,5 +8,8 @@ if len(sys.argv) != 4:
     sys.exit(1)
 
 else:
-    simple_interest = (principal * rate * time) / 100
-    print("The Simple Interest is:", simple_interest)
+    principal=100
+    rate=8
+    time=2
+    si = (principal * rate * time) / 100
+    print("The Simple Interest is:", si)
